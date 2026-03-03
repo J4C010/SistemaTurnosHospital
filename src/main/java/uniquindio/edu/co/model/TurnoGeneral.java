@@ -14,6 +14,6 @@ public class TurnoGeneral implements Turno{
 
     @Override
     public Prioridad obtenerPrioridad() {
-        return null;
+        return Prioridad.GENERAL;
     }
 }
